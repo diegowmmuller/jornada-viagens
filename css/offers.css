@@ -12,7 +12,8 @@
 .card header {
 	display: block;
 	position: static;
-	/* padding-bottom: 6px; */
+	padding: 0;
+	margin-bottom: 24px;
 }
 
 .card header p {
@@ -30,5 +31,5 @@
 	margin-top: 24px;
 	font-size: 32px;
 	font-weight: var(--title-weight);
-	display: inline-block;
+	display: block;
 }
