@@ -33,3 +33,22 @@
 	font-weight: var(--title-weight);
 	display: block;
 }
+
+@media screen and (min-width: 1024px) {
+	.card {
+		width: 588px;
+		height: 360px;
+	}
+
+	.card header {
+		margin-top: 24px;
+	}
+
+	.card header h3 {
+		font-size: 48px;
+	}
+
+	.card header span {
+		font-size: 40px;
+	}
+}
