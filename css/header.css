@@ -70,4 +70,8 @@ nav {
 	.navigation-menu li {
 		margin: 0;
 	}
+
+	.navigation-menu a:hover {
+		color: var(--button-primary-color);
+	}
 }
