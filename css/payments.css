@@ -64,9 +64,14 @@
 	.content-container {
 		display: flex;
 		flex-direction: row;
+		margin: 0 120px;
+	}
+
+	.text-content {
+		width: 790px;
 	}
 
 	.image-content {
-		width: 100%;
+		width: 790px;
 	}
 }
