@@ -1,0 +1,77 @@
+.content-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.text-content {
+	margin: 0 24px;
+}
+
+.text-content h3 {
+	font-size: 28px;
+	font-weight: var(--title-weight);
+}
+
+.text-content p {
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: var(--text-weight);
+}
+
+.image-content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 24px;
+	height: 460px;
+	margin: 24px;
+}
+
+.image-content .image.bag {
+	background: url(../img/Montagemjapão1.png) no-repeat;
+	background-size: cover;
+}
+
+.image-content .image.passport {
+	background: url(../img/Montagemjapão2.png) no-repeat;
+	background-size: cover;
+}
+
+.image-content .image.people {
+	background: url(../img/Montagemjapão3.png) no-repeat;
+	background-size: cover;
+	grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+	.image-content .image.bag {
+		background: url(../img/montagemjapaotablet1.png) no-repeat;
+		background-size: cover;
+	}
+
+	.image-content .image.passport {
+		background: url(../img/montagemjapaotablet2.png) no-repeat;
+		background-size: cover;
+	}
+
+	.image-content .image.people {
+		background: url(../img/montagemjapaotablet3.png) no-repeat;
+		background-size: cover;
+		grid-column: span 2;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.content-container {
+		display: flex;
+		flex-direction: row;
+		margin: 0 120px;
+	}
+
+	.text-content {
+		width: 790px;
+	}
+
+	.image-content {
+		width: 790px;
+	}
+}
