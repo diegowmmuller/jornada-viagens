@@ -23,7 +23,7 @@
 	grid-template-columns: 1fr 1fr;
 	gap: 24px;
 	height: 460px;
-	margin: 24px;
+	margin: 24px 24px 88px 24px;
 }
 
 .image-content .image.bag {
